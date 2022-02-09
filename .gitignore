@@ -1,0 +1,10 @@
+provider "aws" {
+region = "us-east-1"
+access_key = "AKIAZK3K335GIPNAVMJV"
+secret_key = "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"
+}
+
+resource "aws_s3_bucket" "abc" {
+bucket = "mybucketterraform123654"
+acl = "private"
+}
